@@ -6441,12 +6441,16 @@ header{
   font-size: 24px;
 }
 
-.section-title, .links, .card-links, .menu-link{
+.section-title, .links, .card-links, .menu-link, .section-title:hover, .section-title:visited{
   color: #6F2232;
 }
 
+.section-title:hover{
+  cursor: default;
+}
 
-.section-title:hover, .links:hover, .menu-link:hover, .section-title:visited, .links:visited, .menu-link:visited{
+
+.links:hover, .menu-link:hover, .links:visited, .menu-link:visited{
   color: white;
 }
 
