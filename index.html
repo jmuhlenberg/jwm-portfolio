@@ -66,49 +66,74 @@
       <!-- PORTFOLIO -->
       <div class="section">
         <a name="portfolio" class='section-title'>PORTFOLIO</a>
-          <div class="card">
-            <div class="card-divider">
-              <a class='card-links' href="https://out-of-bounds.herokuapp.com/">out of bounds</a>
+        <div class="grid-container">
+          <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-3">
+            <div class="cell">
+              <div class="card">
+                <div class="card-divider">
+                  <a class='card-links' href="https://out-of-bounds.herokuapp.com/">out of bounds</a>
+                </div>
+                <a class='pic-link-border' href="https://out-of-bounds.herokuapp.com/"><img src="https://i.imgur.com/dDNiyD3.png" alt="out of bounds"></a>
+                <div class="card-section">
+                  <h4>Ruby on Rails | PostgreSQL | React | CSS</h4>
+                  <p>A full CRUD, Ruby on Rails web applicaiton, using PostgreSQL, and stylized with Bulma.</p>
+                </div>
+              </div>
             </div>
-            <a class='pic-link-border' href="https://out-of-bounds.herokuapp.com/"><img src="https://i.imgur.com/dDNiyD3.png" alt="out of bounds"></a>
-            <div class="card-section">
-              <h4>Ruby on Rails | HTML | CSS</h4>
-              <p>A full CRUD, Ruby on Rails web applicaiton, using PostgreSQL, and stylized with Bulma.</p>
-            </div>
-          </div>
 
-          <div class="card">
-            <div class="card-divider">
-              <a class='card-links' href="https://healthdir.herokuapp.com/">my health diary</a>
+            <div class="cell">
+              <div class="card">
+                <div class="card-divider">
+                  <a class='card-links' href="https://healthdir.herokuapp.com/">my health diary</a>
+                </div>
+                <a class='pic-link-border' href="https://healthdir.herokuapp.com/"><img src="https://i.imgur.com/8diavMC.png" alt="my health diary"></a>
+                <div class="card-section">
+                  <h4>PHP | PostgreSQL | React | CSS</h4>
+                  <p>A group project, PHP & React single page web application with full CRUD functionality. Completed testing the application locally using PostgreSQL.</p>
+                </div>
+              </div>
             </div>
-            <a class='pic-link-border' href="https://healthdir.herokuapp.com/"><img src="https://i.imgur.com/8diavMC.png" alt="my health diary"></a>
-            <div class="card-section">
-              <h4>JavaScript | HTML | CSS</h4>
-              <p>A group project, PHP & React single page web application with full CRUD functionality. Completed testing the application locally using PostgreSQL.</p>
-            </div>
-          </div>
 
-          <div class="card">
-            <div class="card-divider">
-              <a class='card-links' href="https://morning-retreat-80080.herokuapp.com/">johnslist</a>
+            <div class="cell">
+              <div class="card">
+                <div class="card-divider">
+                  <a class='card-links' href="http://theloveconnection.herokuapp.com/">the love connection</a>
+                </div>
+                <a class='pic-link-border' href="http://theloveconnection.herokuapp.com/"><img src="https://i.imgur.com/xBXe4Tv.png" alt="the love connection"></a>
+                <div class="card-section">
+                  <h4>JavaScript | JSON | Node.js | PostgreSQL | React | CSS</h4>
+                  <p>A group project, PHP & React single page web application with full CRUD functionality. Completed testing the application locally using PostgreSQL.</p>
+                </div>
+              </div>
             </div>
-            <a class='pic-link-border' href="https://morning-retreat-80080.herokuapp.com/"><img src="https://i.imgur.com/IaGW8wb.png" alt="johnslist"></a>
-            <div class="card-section">
-              <h4>JavaScript | HTML | CSS</h4>
-              <p>A full CRUD, multi-page web application (with all 7 RESTful routes) using Node.js, Mongoose, Express, EJS and host the application publicly via Mongo Atlas and Heroku.</p>
-            </div>
-          </div>
 
-          <div class="card">
-            <div class="card-divider">
-              <a class='card-links' href="https://jmuhlenberg.github.io/ga_projects/project_1/">the mixologist</a>
+            <div class="cell">
+              <div class="card">
+                <div class="card-divider">
+                  <a class='card-links' href="https://morning-retreat-80080.herokuapp.com/">johnslist</a>
+                </div>
+                <a class='pic-link-border' href="https://morning-retreat-80080.herokuapp.com/"><img src="https://i.imgur.com/IaGW8wb.png" alt="johnslist"></a>
+                <div class="card-section">
+                  <h4>JavaScript | JSON | Node.js | EJS | Express | Mongoose | MongoDB | HTML | CSS</h4>
+                  <p>A full CRUD, multi-page web application (with all 7 RESTful routes) using Node.js, Mongoose, Express, EJS and host the application publicly via Mongo Atlas and Heroku.</p>
+                </div>
+              </div>
             </div>
-            <a class='pic-link-border' href="https://jmuhlenberg.github.io/ga_projects/project_1/"><img src="https://i.imgur.com/fkwZQLs.png" alt="the mixologist"></a>
-            <div class="card-section">
-              <h4>JavaScript | HTML | CSS</h4>
-              <p>Used AJAX to make a request to an external database and insert some of the data retrieved into the DOM, implement responsive design, and have one or more complex user interface modules.</p>
+
+            <div class="cell">
+              <div class="card">
+                <div class="card-divider">
+                  <a class='card-links' href="https://jmuhlenberg.github.io/ga_projects/project_1/">the mixologist</a>
+                </div>
+                <a class='pic-link-border' href="https://jmuhlenberg.github.io/ga_projects/project_1/"><img src="https://i.imgur.com/fkwZQLs.png" alt="the mixologist"></a>
+                <div class="card-section">
+                  <h4>JavaScript | jQuery | AJAX | HTML | CSS</h4>
+                  <p>Used AJAX to make a request to an external database and insert some of the data retrieved into the DOM, implement responsive design, and have one or more complex user interface modules.</p>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
       </div>
 
       <!-- CONTACT -->
@@ -137,7 +162,7 @@
                     </label>
                   </div>
                   <div class="cell">
-                    <input class='button' type="submit" value="submit">
+                    <a class='button' href="mailto:jmuhlenberg16@yahoo.com">submit</a>
                   </div>
                 </div>
               </div>
